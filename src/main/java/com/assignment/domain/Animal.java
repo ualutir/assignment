@@ -2,7 +2,7 @@ package com.assignment.domain;
 
 public class Animal {
 	
-	public void walk() {
-		System.out.println("I am walking");
+	public void eat(){
+		System.out.println("I am eating");
 	}
 }
