@@ -1,6 +1,6 @@
 package com.assignment.domain;
 
-public class Fish extends Animal{
+public class Fish extends SwimmerImpl{
 	private String _color;
 	 
     public String getColor() {

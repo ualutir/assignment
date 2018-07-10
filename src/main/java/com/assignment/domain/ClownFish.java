@@ -6,7 +6,7 @@ public class ClownFish extends Fish{
 		super("colorful", "small");
 	}
 	
-	public void eatOtherFish(){
+	public void makeJokes(){
 		System.out.println("I am making jokes");
 	}
 }
