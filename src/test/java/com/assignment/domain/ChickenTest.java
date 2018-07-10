@@ -25,8 +25,12 @@ public class ChickenTest
     @Test
     public void TestChickenSing()
     {
-    	Duck duck = new Duck();
-    	duck.sing();
+    	Chicken chicken = new Chicken("Female");
+    	chicken.sing();
     	assertEquals("Cluck, cluck", outContent.toString());
+    	
+    	Chicken rooster = new Chicken("Male");
+    	rooster.sing();
+    	assertEquals("Cock-a-doodle-doo", outContent.toString());
     }
 }

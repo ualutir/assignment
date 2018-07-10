@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.assignment.domain.Bird;
+import com.assignment.domain.Chicken;
+import com.assignment.domain.Duck;
 
 @SpringBootApplication
 public class Solution {
@@ -13,6 +15,15 @@ public class Solution {
 		
 		Bird bird = new Bird();
 		bird.walk();
-		bird.fly();
+		
+		Duck duck = new Duck();
+		duck.swim();
+		duck.sing();
+		
+		Chicken chicken = new Chicken("Male");		
+		chicken.sing();
+		
+		Chicken rooster = new Chicken("Female");		
+		rooster.sing();
 	}
 }
