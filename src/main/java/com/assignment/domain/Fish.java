@@ -1,8 +1,20 @@
 package com.assignment.domain;
 
-public class Fish extends Animal implements Swimmer{
+public class Fish extends Animal{
+	private String _color;
+	 
+    public String getColor() {
+        return this._color;
+    }
 	
-	public void swim() {
-		System.out.println("I am swimming");
-	}	
+	private String _size;
+	 
+    public String getSize() {
+        return this._size;
+    }
+    
+    public Fish(String color, String size) {
+    	this._color = color;
+    	this._size = size;
+    }  
 }
