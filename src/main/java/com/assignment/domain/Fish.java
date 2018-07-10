@@ -13,6 +13,10 @@ public class Fish extends Animal{
         return this._size;
     }
     
+    public Fish() {
+    	
+    } 
+    
     public Fish(String color, String size) {
     	this._color = color;
     	this._size = size;

@@ -2,7 +2,7 @@ package com.assignment.domain;
 
 public class Shark extends Fish{
 
-	Shark(){
+	public Shark(){
 		super("gray", "large");
 	}
 	
